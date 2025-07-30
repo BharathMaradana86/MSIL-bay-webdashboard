@@ -108,7 +108,8 @@ const AuthContextProvider = ({ children }) => {
         roles: ["user", "admin"],
       }
     ];
-    return allRoutes.filter((item) => item?.roles?.includes(data[0]?.roles));
+    //return allRoutes.filter((item) => item?.roles?.includes(data[0]?.roles));
+    return allRoutes;
   };
 
   return (
