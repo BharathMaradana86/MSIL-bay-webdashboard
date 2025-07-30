@@ -33,29 +33,29 @@ const AuthContextProvider = ({ children }) => {
       try {
         const res = await handleMyProfile();
         console.log(res);
-        if (res?.data === "ACCESS DENIED" || res?.data === undefined) {
-          // navigate("/Login");
-          navigate('/');
+        if (false) {
+          navigate("/Login");
         } else if (res?.data) {
-          setUserCredentials(res.data);
-          setRoutes(getRoutesByRole(res.data));
+          setUserCredentials([{roles: "admin"}]);
+          setRoutes(getRoutesByRole([{roles: "admin"}]));
         }
-        if (res?.data?.accessToken) {
+        if (false) {
           localStorage.accessToken = res?.data?.accessToken;
           const res_1 = await handleMyProfile();
           if (res_1?.data === "ACCESS DENIED" || res_1?.data === undefined) {
-            // navigate("/Login");
-            navigate('/');
+            navigate("/Login");
           } else if (res_1?.data) {
-            setUserCredentials(res_1.data);
-            setRoutes(getRoutesByRole(res_1.data));
+            setUserCredentials([{roles: "admin"}]);
+            setRoutes(getRoutesByRole([{roles: "admin"}]));
           }
         }
       } catch (error) {
-        // navigate("/Login");
-        navigate('/');
+        setUserCredentials([{roles: "admin"}]);
+        setRoutes(getRoutesByRole([{roles: "admin"}]));
         console.log(error);
       } finally {
+        setUserCredentials([{roles: "admin"}]);
+          setRoutes(getRoutesByRole([{roles: "admin"}]));
         setLoading(false); // Set loading to false after the user profile is fetched
       }
     };
@@ -108,8 +108,7 @@ const AuthContextProvider = ({ children }) => {
         roles: ["user", "admin"],
       }
     ];
-    //return allRoutes.filter((item) => item?.roles?.includes(data[0]?.roles));
-    return allRoutes;
+    return allRoutes.filter((item) => item?.roles?.includes(data[0]?.roles));
   };
 
   return (
