@@ -1,0 +1,17 @@
+
+
+.menu_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100000 !important;
+    border-radius: 5px;
+}
+

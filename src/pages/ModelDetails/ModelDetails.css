@@ -1,0 +1,455 @@
+.model_inspection_main_head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1136px;
+}
+
+.model_inspection_main_head_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #101623;
+}
+
+.delete_model_button{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: solid 1px #ff7252;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete_model_button_text{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff5630;
+}
+
+.model_basic_info{
+  width: 1136px;
+  min-height: 160px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 45px 0px 24px;
+}
+
+.model_basic_info_head{
+  height: 40px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+.model_basic_info_head_text{
+  height: 28px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+}
+
+.model_basic_info_head_text_div{
+    width: 8px;
+  height: 24px;
+  flex-grow: 0;
+  border-radius: 10px;
+  background-color: #101623;
+}
+
+.model_basic_info_head_text_para{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #101623;
+}
+
+.model_basic_info_head_edit{
+    width: 81px;
+  height: 40px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #395dab;
+  border: none !important;
+  cursor: pointer;
+}
+
+.model_basic_info_head_edit_text{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.model_basic_info_content{
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0;
+}
+
+.model_basic_info_content_item{
+  width: 200px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0;
+
+}
+
+.model_basic_info_content_item_1{
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #a0a8b0;
+}
+
+.model_basic_info_content_item_2{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #101623;
+  width: 200px;
+  word-wrap: break-word;
+}
+
+.parts_delete_icon{
+    width: 40px;
+  height: 40px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #f4f5f6;
+  cursor: pointer;
+}
+
+.model_parts_table_head{
+  height: 40px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.add_parts_button{
+    width: 118px;
+  height: 40px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #395dab;
+  border: transparent !important;
+  cursor: pointer;
+}
+
+.add_parts_button p{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.dialog_title_box{
+  width: 6px;
+  height: 24px;
+  flex-grow: 0;
+  border-radius: 10px;
+  background-color: #232b39;
+}
+
+.dialog_title_text{
+  flex-grow: 0;
+  font-family: PlusJakartaSans;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #232b39;
+}
+
+.dialog_edit_form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 24px 0px;
+}
+
+.dialog_edit_input{
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0;
+}
+
+.ant-select-selector{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.dialog_edit_input_text{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #232b39;
+}
+
+.dialog_edit_input_field{
+  height: 48px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: solid 1px #d3d6da;
+  background-color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #232b39;
+}
+
+.dialog_line{
+  height: 1px;
+  align-self: stretch;
+  flex-grow: 0;
+  background-color: #e5e7eb;
+}
+
+.dialog_delete_cancel_button{
+  width: 136px ;
+  height: 48px ;
+  flex-grow: 0 ;
+  display: flex ;
+  flex-direction: row ;
+  justify-content: center ;
+  align-items: center ;
+  gap: 12px ;
+  padding: 16px ;
+  border-radius: 10px ;
+  font-family: Inter ;
+  font-size: 16px ;
+  font-weight: 600 ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1 ;
+  letter-spacing: normal ;
+  text-align: left ;
+  color: #a0a8b0 ;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dialog_add_cancel_button{
+  width: 150px ;
+  height: 48px ;
+  flex-grow: 0 ;
+  display: flex ;
+  flex-direction: row ;
+  justify-content: center ;
+  align-items: center ;
+  gap: 8px ;
+  padding: 13px ;
+  border-radius: 10px ;
+  font-family: Inter ;
+  font-size: 16px ;
+  font-weight: 600 ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.38 ;
+  letter-spacing: normal ;
+  text-align: left ;
+  color: #395dab ;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dialog_add_submit_button{
+  width: 200px ;
+  height: 48px ;
+  flex-grow: 0 ;
+  display: flex ;
+  flex-direction: row ;
+  justify-content: center ;
+  align-items: center ;
+  gap: 8px ;
+  padding: 13px ;
+  border-radius: 10px ;
+  background-color: #395dab ;
+  font-family: Inter ;
+  font-size: 16px ;
+  font-weight: 600 ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.38 ;
+  letter-spacing: normal ;
+  text-align: left ;
+  color: #fff ;
+  cursor: pointer;
+}
+
+.dialog_delete_submit_button{
+  width: 144px ;
+  height: 48px ;
+  flex-grow: 0 ;
+  display: flex ;
+  flex-direction: row ;
+  justify-content: center ;
+  align-items: center ;
+  gap: 12px ;
+  padding: 16px ;
+  border-radius: 10px ;
+  border: solid 1px #ff7252 ;
+  background-color: #ff5630 ;
+  font-family: PlusJakartaSans ;
+  font-size: 16px ;
+  font-weight: 600 ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1 ;
+  letter-spacing: normal ;
+  text-align: left ;
+  color: #fff ;
+  cursor: pointer;
+}
+
+.dialog_add_another_part_text{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #395dab;
+  cursor: pointer;
+}
+
+.delete_dialog_content{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3b4453;
+  margin: 0px 0px 35px;
+}

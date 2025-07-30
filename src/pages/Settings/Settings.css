@@ -1,0 +1,15 @@
+.input_pagination{
+    padding: 5px;
+    width: 50px;
+    height: 32px;
+    border: 1px solid #707784;
+    color: #101623;
+    border-radius: 5px;
+}
+.input_pagination_text{
+    color: #101623;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    letter-spacing: 1%;
+}

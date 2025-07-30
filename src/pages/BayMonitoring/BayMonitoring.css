@@ -1,0 +1,15 @@
+@keyframes scale-blink {
+
+    0%,
+    100% {
+        transform: scale(0.99);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+}
+
+.animate-scale-blink {
+    animation: scale-blink 1.2s ease-in-out infinite;
+}

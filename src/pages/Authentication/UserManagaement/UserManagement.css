@@ -1,0 +1,236 @@
+.user_main{
+    min-height: 100vh;
+    max-height: max-content;
+    overflow-x: hidden;
+    background-color: #F4F5F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* caret-color: transparent; */
+    padding-left: 272px;
+    padding-right: 32px;
+    padding-top: 109px;
+    z-index:10;
+}
+
+.user_head_main_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1136px;
+}
+
+.user_head_box{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+}
+
+.user_head_text{
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #101623;
+  }
+
+  .user_head_right_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+
+
+  .user_list_table_container{
+    overflow: auto;
+    margin-top: 24px;
+    border-radius: 10px;
+    /* border: 1px solid #000000; */
+    background-color: #fff;
+    padding: 24px;
+}
+
+  .user_list_table{
+    border-radius: 6px;
+    border-spacing: 0;
+    width: 100%; 
+    overflow: auto;
+    margin-top: 18px;
+  }
+
+  .user_list_table_head_text{
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #101623;
+  }
+
+  .user_list_table th{
+    text-align: left;
+    padding: 10px 16px;
+    background-color: #F4F5F6;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1%;
+    height: 52px;
+  }
+
+.user_list_sub_table td{
+    border-bottom: 1px solid #A0A8B0; 
+}
+
+.user_list_sub_table_access{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.user_list_table th,.user_list_table td{
+    text-align: start;
+    width: auto;
+    white-space: nowrap;
+    padding: 16px; 
+}
+
+.user_list_sub_table td{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1%;
+    color: #101623;
+    height: 60px;
+}
+
+.user_list_table .tfoot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.user_list_sub_table_icon_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.user_list_sub_table_icon_text p{
+    color: #85939d;
+}
+
+.dialog_edit_input_add_part{
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #395dab;
+}
+
+.dialog_edit_input_permission_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialog_edit_input_permission_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.dialog_edit_input_permission_text{
+    flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #395dab;
+}
+
+.dialog_settings_box{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f4f5f6;
+    padding: 18px 12px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+
+.dialog_settings_box_text{
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #101623;
+}
+
+.dialog_settings_items{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 16px;
+    padding: 0px 12px;
+}
+
+.dialog_settings_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.dialog_settings_item_text{
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #101623;
+    width: 50%;
+}

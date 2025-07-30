@@ -1,0 +1,120 @@
+.image-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 119;
+    transition: 2s ease-in;
+  }
+  
+
+  
+  .wrong-symbol {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 3rem;
+    color: red;
+  }
+  
+  .image-container {
+    margin-top: 6px;
+    width: 100%;
+  height: max-content;
+  flex-grow: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+  }
+
+
+
+  .container {
+    position: relative;
+
+  }
+  
+  .image_1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image_1 {
+    opacity: 1;   
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 22%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.753); 
+  }
+
+
+  .image-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 255, 255, 0.425);
+    border-radius: 10px;
+  }
+  
+  .image-controls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.671);
+    transition: transform 0.3s;
+  }
+  
+  .image-controls button:hover {
+    transform: scale(1.1);
+  }
+  
+  .bounding-box-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+  
+  .bounding-box {
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,250 @@
+.configure_main{
+  min-height: 100vh;
+  max-height: max-content;
+  overflow-x: hidden;
+  background-color: #F4F5F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* caret-color: transparent; */
+  padding-left: 272px;
+  padding-right: 32px;
+  padding-top: 109px;
+  z-index:10;
+}
+
+.configure_head_text{
+flex-grow: 0;
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.25;
+letter-spacing: normal;
+text-align: left;
+color: #101623;
+}
+
+.configure_add_models_button{
+width: 134px;
+height: 40px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 12px;
+border-radius: 10px;
+background-color: #395dab;
+cursor: pointer;
+}
+
+.configure_add_models_button p{
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+}
+
+.configure_model_name{
+font-family: Inter !important;
+font-size: 14px !important; 
+font-weight: 600 !important;
+font-stretch: normal !important;
+font-style: normal !important;
+line-height: 1.43 !important;
+letter-spacing: 0.14px !important;
+text-align: left !important;
+color: #395dab !important;
+}
+
+.dialog_title_left{
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 12px;
+padding: 0;
+}
+
+.model_basic_info_head_edit_v1 {
+padding: 20px;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 12px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.25;
+letter-spacing: normal;
+text-align: left;
+color: #101623;
+}
+.configure_dialog_content_main{
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+padding: 0;
+margin: 40px 0px;
+}
+
+.model_basic_info_head_edit_text_v1{
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+text-align: left;
+color: black;
+}
+.configure_design_head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+width: 100%;
+height: 68px;
+flex-grow: 0;
+margin: 40px 0px 0px 0px;
+}
+
+.configure_design_element{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.configure_design_element_1{
+  width: 292px;
+height: 20px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 74px;
+padding: 0;
+}
+
+.configure_design_element_1_text{
+flex-grow: 0;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: 0.14px;
+text-align: left;
+color: #101623;
+
+}
+
+.configure_design_element_2_text{
+flex-grow: 0;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: 0.14px;
+text-align: left;
+color: #707784;
+
+}
+
+.configure_design_first_div{
+width: 40px;
+height: 40px;
+flex-grow: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+}
+.configure_design_first_div p{
+flex-grow: 0;
+font-family: PlusJakartaSans;
+font-size: 20px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+}
+
+.configure_design_middle_div{
+width: 140px;
+height: 2px;
+flex-grow: 0;
+transform: rotate(-360deg);
+background-color: #707784;
+}
+
+.config_cancel_button{
+height: 48px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12px;
+padding: 16px;
+border-radius: 10px;
+background-color: transparent;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+text-align: left;
+color: #395dab;
+cursor: pointer;
+}
+
+.config_submit_button{
+  height: 48px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 10px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+text-align: left;
+cursor: pointer;
+}

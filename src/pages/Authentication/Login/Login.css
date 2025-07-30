@@ -1,0 +1,119 @@
+.login_main{
+    height: 100vh;
+    /* display: grid;
+    grid-template-columns: 60% 40%; */
+    overflow-x: hidden;
+}
+
+.image-bg{
+    background-image: url('../../../images/dashboard.png');
+    background-size: cover; /* or 'contain' or other values based on your preference */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* 
+.image-bg::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #3d3878;
+    opacity: 0.5;
+    width: 60%;
+    height: 100%;
+    z-index: 100;
+} */
+
+.image-hype-main{
+    display: flex;
+    flex-direction: column;
+}
+.image-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+
+.login_submain{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.login_details{
+    display: flex;
+    flex-direction: column;
+    /* gap: 32px; */
+    /* width: 50%; */
+}
+
+.head{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 54.53px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    
+}
+.check{
+    padding: 0px;
+}
+.input{
+    padding-left:14px;
+    padding-right: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+}
+.input::placeholder {
+    font-size: 16px; 
+    color:#707784;
+    line-height: 22px;
+  
+  }
+.label-div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.btn{
+    padding: 16px;
+    border-radius: 10px;
+    line-height: 16px;
+    background-color: #395dab;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 8px;
+    caret-color: transparent;
+}

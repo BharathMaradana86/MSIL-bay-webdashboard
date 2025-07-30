@@ -1,0 +1,13 @@
+.services_btn{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 80px !important;
+    height: 28px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
